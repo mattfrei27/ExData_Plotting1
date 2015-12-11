@@ -30,4 +30,4 @@ png('plot2.png',width=480,height=480)
 plot(pd$dt,pd$global_active_power,
      ylab = 'Global Active Power (kilowatts)',
      xlab='', type='l')
-dev.off() ## Don't forget to close the PNG device!
+dev.off()
